@@ -14,9 +14,125 @@
 	<body>
 	<!-- ALL MY CODE -->
 		
-		<div>
-			
-		</div>
+<!-- NAVBAR -->
+			<nav class="navbar navbar-expand-md  navbar-dark">
+			  <!-- BOOTSTRAP EXERCISE -->
+			  <a class="navbar-brand" href="https://getbootstrap.com/">Bootstrap Exercise</a>
+			  <!-- NAVBAR CONTAINER -->
+			  <button class="container-fluid flex-basis-0% navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="container"></div>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<!--COMPONENTS -->
+			    <ul class="navbar-nav ml-auto">
+			    <!-- POPOVER -->
+			      <li class="nav-item">
+			        <a class="nav-link" href="https://getbootstrap.com/docs/4.1/components/popovers/">Popover <span class="sr-only">(current)</span></a>
+			      </li>
+			    <!-- CAROUSEL -->
+			      <li class="nav-item">
+			        <a class="nav-link" href="https://getbootstrap.com/docs/4.1/components/carousel/">Carousel</a>
+			      </li>
+			    <!-- PREVIOUSLY DISABLED // FORMS-->
+			      <li class="nav-item">
+			        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/components/forms/">Forms</a>
+			      </li>
+
+
+				<!--DROPDOWN COMPONENTS -->
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="https://getbootstrap.com/docs/4.1/components/alerts/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Additional Components</a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			        	<!-- Alerts -->
+			          <a class="dropdown-item" href="https://getbootstrap.com/docs/4.1/components/alerts/">Alerts</a>
+			            <!-- Buttons -->
+			          <a class="dropdown-item" href="https://getbootstrap.com/docs/4.1/components/buttons/">Buttons</a>
+			          <!-- div class="dropdown-divider"></div> --> <!--Don't like divder -->
+			            <!--Cards -->
+			          <a class="dropdown-item" href="https://getbootstrap.com/docs/4.1/components/card/">Cards</a>
+			        </div>
+			      </li>
+			    </ul>
+			<!-- SEARCH BAR -->
+			    <form class="form-inline flex-nowrap my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			        <!-- Search Button -->
+			      	<button class="btn btn-outline-light btn-sm ml-auto mr-1" type="submit">Search</button>
+			    </form>
+			  </div>
+			</nav>
+
+<!--JUMBOTRON -->
+			<div class="jumbotron">
+			  <h1 class="display-4">Practice Exercise with Bootsrap v4.1</h1>
+			  <p class="lead">This is a small collection of my favorite companies.</p>
+			  <hr class="my-4">
+			  <p>Practicing utilizing responsive design through Bootstrap on various media platforms.</p>
+			<!-- LEARN MORE JUMOBOTRON BUTTON -->
+				<!-- <a class="btn btn-dark btn-sm" href="#" role="button">Learn more</a> -->
+
+			  <!-- MODAL -->
+				<!-- Button trigger modal -->
+					<button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#exampleModalLong">
+					  Learn More
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLongTitle">Practice Responsive Design</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        Come one you know you want to try it! Shrink the site and see what happens...
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					   <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+					      </div>
+					    </div>
+					  </div>
+					</div>
+			</div>
+
+<!-- FAVORITE COMPANIES -->
+			<div class="container">
+ 				 <div class="row pb-auto text-center">
+    <!-- DEATH WISH COFFEE -->
+ 				 	<div class="col-8 col-sm-6 col-md-3 mx-auto">
+ 				 		<h2>Death Wish Coffee Company</h2>
+ 				 		<a href="https://www.deathwishcoffee.com/collections/about-death-wish-coffee" target=_blank"><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwItgchWv0FRpjiTUHJLp1pWiAJZQjs2AWKpLPKSF9tjUOly8JTQ" alt="Death Wish Coffee Company's Logo consisting of a skull and crossed bones with coffee beans on the sides"></a>
+		<!--DW BUTTON -->
+ 				 		<a href="https://www.deathwishcoffee.com/collections/about-death-wish-coffee" target=_blank">
+ 				 		<button type="button" class="btn btn-outline-dark my-5">Learn More</button></a>
+
+	<!-- GREEN WEDDING SHOES -->
+ 				 	</div>
+ 				 	<div class="col-8 col-sm-6 col-md-3  mx-auto">
+ 				 		 <h2>Green Wedding Shoes</h2>
+ 				 		<a href="https://greenweddingshoes.com/out-of-this-world-star-wars-themed-wedding" target="_blank"><img class="img-fluid" src="https://greenweddingshoes.com/wp-content/themes/greenweddingshoes/images/gws-logo.png" alt="Green Wedding Shoes logo with a heart"></a>
+		<!--GWS BUTTON -->
+ 				 		<a href="https://greenweddingshoes.com/out-of-this-world-star-wars-themed-wedding" target="_blank">
+ 				 		<button type="button" class="btn btn-outline-dark my-5">Learn More</button></a>
+ 				 	</div>
+
+ 	<!-- THIRST RELIEF INTERNATIONAL -->
+ 				 	<div class="col-8 col-sm-6 col-md-3 mx-auto">
+ 				 		<h2>Thirst Relief International</h2>
+ 				 		<a href="https://www.thirstrelief.org/about/" target="_blank"><img class="img-fluid" src="https://static1.squarespace.com/static/584058009f74562842bb0f14/t/585986fdd2b85752869d298d/1531241659662/?format=1500w" alt="Thirst Relief International Logo"></a>
+ 		<!--THIRST BUTTON -->
+ 						<a href="https://www.thirstrelief.org/about/" target="_blank">
+ 				 		<button type="button" class="btn btn-outline-dark my-5">Learn More</button></a>
+ 				 	</div>
+ 				 </div>
+ 			</div>
 
 
 <!-- SCRIPTS -->

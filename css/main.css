@@ -1,0 +1,16 @@
+/*body {
+	margin: auto;
+}*/
+nav {
+	background-color: #696969;
+	display: inline-block;
+}
+
+.nav-item {
+	text-align: center;
+}
+
+.navbar-expand-md .navbar-collapse {
+	flex-basis: 100%;
+}
+
